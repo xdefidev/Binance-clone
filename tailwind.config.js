@@ -1,15 +1,14 @@
 module.exports = {
   darkMode: "class",
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       transitionProperty: {
-        'height': 'height',
-        'spacing': 'margin, padding',
-      }
+        height: "height",
+        spacing: "margin, padding",
+      },
+      fontFamily: { unbounded: ['"Unbounded"', "cursive"] },
     },
   },
   plugins: [],
-}
+};

@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.css-1tywbcj{
+.css-1tywbcj {
     width: 120px;
-    height:24px;
+    height: 60px;
     fill: rgb(240, 185, 11);
 }
 
-.container{
+.container {
     transform: translateX(0);
 }
