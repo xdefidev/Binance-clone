@@ -28,7 +28,7 @@ const OtherInfo = () => {
     <div className="w-full transition-colors duration-100 dark:bg-[#181a20] rounded-t-3xl pt-4">
       <div className="max-w-full w-[1300px] h-full m-auto p-5 space-y-14">
         {/* Image Slider */}
-        <div className="overflow-hidden  relative">
+        {/* <div className="overflow-hidden  relative">
           <button
             className="z-20 text-white absolute left-0 top-0 bottom-0 rotate-90"
             onClick={() => slide("left")}
@@ -54,8 +54,17 @@ const OtherInfo = () => {
           >
             <HiOutlineArrowDown size={35} />
           </button>
-        </div>
+        </div> */}
         {/*End Image Slider */}
+
+        <div className="w-full transition-colors duration-100 dark:bg-[#181a20] rounded-t-3xl pt-4 dark:text-white justify-center">
+          <h1
+            aria-label="We Are BNBDADDY"
+            className="heah dark:text-[#e4e7eb] text-[#000]"
+          >
+            We Are&nbsp;<span class="typewriter thick"></span>
+          </h1>
+        </div>
 
         {/* Announcement */}
         <div className="mt-[20px] space-y-3 dark:text-[#848e9c] text-gray-500 text-[14px]">

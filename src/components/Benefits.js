@@ -25,7 +25,7 @@ const Benefits = () => {
             convenience.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="gap-4  grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
           {TouchData1.map((data, index) => (
             <div key={index} className="group cursor-pointer">
               <div className="border-red-700 border-r-4 group-hover:bg-[#f5f5f5] dark:group-hover:bg-[#2b3139] p-4 rounded-md space-y-3">
