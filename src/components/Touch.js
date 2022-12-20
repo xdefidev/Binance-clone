@@ -5,7 +5,7 @@ const Touch = () => {
     <div>
       <div className="max-w-full w-[1300px] h-full m-auto p-5 text-center mb-[50px]">
         <div className="mb-[20px] sm:mb-[60px]">
-          <h1 className="font-unbounded text-gray-800 dark:text-gray-200 text-2xl sm:text-3xl md:text-4xl font-semibold">
+          <h1 className="font-unbounded text-color-red dark:text-color-red text-2xl sm:text-3xl md:text-4xl font-semibold">
             Just Trade. No BS.
           </h1>
         </div>
