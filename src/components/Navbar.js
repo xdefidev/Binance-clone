@@ -32,7 +32,7 @@ const Navbar = () => {
                   >
                     <a
                       href="#"
-                      className="flex items-center group-hover:text-[#db373d]"
+                      className="flex items-center group-hover:text-[#d00000]"
                     >
                       {data?.icon1}{" "}
                       <span className="text-[#848e9c]">{data?.icon2}</span>
@@ -65,7 +65,7 @@ const Navbar = () => {
                   >
                     <a
                       href="#"
-                      className="whitespace-nowrap flex items-center justify-center group-hover:text-[#db373d] font-unbounded "
+                      className="whitespace-nowrap flex items-center justify-center group-hover:text-[#d00000] font-unbounded "
                     >
                       {data?.item}
                       {data?.subItem && (
@@ -103,7 +103,7 @@ const Navbar = () => {
                   key={index}
                 >
                   {data?.item === "Register" ? (
-                    <button className="bg-[#db373d] py-2 p-4 rounded-md dark:text-black font-unbounded ">
+                    <button className="bg-[#d00000] py-2 p-4 rounded-md dark:text-black font-unbounded ">
                       {data?.item}
                     </button>
                   ) : data?.item === "Theme" ? (
@@ -113,11 +113,11 @@ const Navbar = () => {
                       href="/login"
                       className={`${
                         data?.item === "English" || data?.item === "PHP"
-                          ? `after:content-['|'] after:ml-1 after:font-extralight group-hover:text-[#db373d]`
+                          ? `after:content-['|'] after:ml-1 after:font-extralight group-hover:text-[#d00000]`
                           : ``
                       }`}
                     >
-                      <span className="group-hover:text-[#db373d] font-unbounded ">
+                      <span className="group-hover:text-[#d00000] font-unbounded ">
                         {data?.item}
                       </span>{" "}
                     </a>

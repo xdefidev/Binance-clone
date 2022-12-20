@@ -11,13 +11,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ca2b2a;
+    background: #d00000;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ca2b2a;
+    background: #d00000;
 }
 
 .title-test {
@@ -287,7 +287,10 @@
 
 @media (min-device-width: 300px) and (max-device-width: 700px) {
     .title-test::before {
-        display: none;
+
+        overflow: hidden;
+        font-size: 13vmin;
+        top: 100%;
     }
 
     .heah {

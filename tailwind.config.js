@@ -8,6 +8,9 @@ module.exports = {
         spacing: "margin, padding",
       },
       fontFamily: { unbounded: ['"Unbounded"', "cursive"] },
+      colors: {
+        "color-red": "#d00000",
+      },
     },
   },
   plugins: [],

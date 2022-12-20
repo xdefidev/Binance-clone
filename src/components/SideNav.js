@@ -50,7 +50,7 @@ const SideNav = ({ NavMainData, NavSideData, toggleNav, isOpen }) => {
               ) : data?.item === "Register" ? (
                 <a
                   href="/login"
-                  className="py-2 p-4 rounded-md w-full text-center bg-[#db373d] dark:text-black font-unbounded "
+                  className="py-2 p-4 rounded-md w-full text-center bg-[#d00000] dark:text-black font-unbounded "
                 >
                   {data?.item}{" "}
                 </a>

@@ -38,7 +38,7 @@ const Hero = () => {
             <p className="font-unbounded text-sm lg:text-[16px] text-gray-700 dark:text-[#848e9c]">
               Join the world's largest crypto exchange
             </p>
-            <button className="bg-[#db373d] text-sm font-semibold py-3 lg:py-3 px-16 text-[16px] rounded-md text-gray-800">
+            <button className="bg-[#d00000] text-sm font-semibold py-3 lg:py-3 px-16 text-[16px] rounded-md text-gray-800">
               Register Now
             </button>
           </div>
@@ -59,7 +59,7 @@ const Hero = () => {
                     data?.market_cap_change_percentage_24h
                       .toString()
                       .split("")[0] == "-"
-                      ? "text-red-500"
+                      ? "text-color-red"
                       : "text-green-500"
                   }
                 >

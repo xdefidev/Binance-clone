@@ -25,7 +25,7 @@ const AccordionFooter = () => {
               onClick={() => handleToggle(index)}
             >
               <div className="flex justify-between items-center w-full">
-                <h1 className="font-unbounded dark:text-white font-semibold text-sm text-lg text-gray-800">
+                <h1 className="font-unbounded dark:text-[#e4e7eb] font-semibold text-sm text-lg text-[#e4e7eb]">
                   {data.item}
                 </h1>
                 {data.item !== "Community" && (
@@ -38,7 +38,7 @@ const AccordionFooter = () => {
                     ) : (
                       <AiOutlinePlus
                         size={21}
-                        className="dark:fill-white fill-gray-800"
+                        className="dark:fill-white fill-white"
                       />
                     )}{" "}
                   </span>
@@ -47,7 +47,7 @@ const AccordionFooter = () => {
             </div>
             <div
               className={`${
-                data.item === "Community"
+                data.item === "Join the Community"
                   ? ``
                   : `block w-full transition-all duration-200 overflow-hidden ${
                       clicked === index ? `max-h-[1000px]` : `max-h-0`
@@ -56,7 +56,7 @@ const AccordionFooter = () => {
             >
               <div
                 className={`pt-2 space-y-2 ${
-                  data.item === "Community"
+                  data.item === "Join the Community"
                     ? `flex flex-wrap items-center space-x-4`
                     : `block w-full`
                 }`}
@@ -65,7 +65,7 @@ const AccordionFooter = () => {
                   <div key={index} className={`text-left group h-full`}>
                     <a
                       href="#"
-                      className="w-full text-gray-500 group-hover:text-gray-800 dark:group-hover:text-white dark:text-[#848e9c] text-sm inline-block font-unbounded "
+                      className="w-full text-[#e4e7eb] group-hover:text-[#e4e7eb] dark:group-hover:text-[#e4e7eb] dark:text-[#fff] text-sm inline-block font-unbounded "
                     >
                       {subData}
                     </a>

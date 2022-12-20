@@ -62,7 +62,8 @@ const OtherInfo = () => {
             aria-label="We Are BNBDADDY"
             className="heah dark:text-[#e4e7eb] text-[#000]"
           >
-            We Are&nbsp;<span class="typewriter thick"></span>
+            We Are&nbsp;
+            <span class="typewriter thick text-[#d00000]"></span>
           </h1>
         </div>
 
@@ -75,7 +76,7 @@ const OtherInfo = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="w-[20px] h-[20px] group-hover:text-[#db373d] "
+                  className="w-[20px] h-[20px] group-hover:text-[#d00000] "
                 >
                   <path
                     fill="currentColor"
@@ -84,7 +85,7 @@ const OtherInfo = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="group-hover:text-[#db373d]">
+                <span className="group-hover:text-[#d00000]">
                   This is the official website of BNBDADDY!
                 </span>
               </div>
@@ -107,7 +108,7 @@ const OtherInfo = () => {
             </svg>
             <div className="flex gap-3">
               <span>BNBDADDY! </span>
-              <a href="#" className="dark:text-[#db373d] text-yellow-500">
+              <a href="#" className="dark:text-[#d00000] text-yellow-500">
                 More
               </a>
             </div>
@@ -119,7 +120,7 @@ const OtherInfo = () => {
               </svg>
               <div className="flex gap-3">
                 <span>Technology used: React and Tailwind CSS! </span>
-                <a href="#" className="dark:text-[#db373d] text-yellow-500">More</a>
+                <a href="#" className="dark:text-[#d00000] text-yellow-500">More</a>
               </div>
             </div> */}
           </div>

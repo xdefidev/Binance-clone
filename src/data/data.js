@@ -244,14 +244,14 @@ export const FooterData = [
     ],
   },
   {
-    item: "Community",
+    item: "Join the Community",
     subItem: [
-      <FaTelegram size={45} color="#db383d" />,
-      <FaFacebook size={45} color="#db383d" />,
-      <AiOutlineTwitter size={45} color="#db383d" />,
-      <FaDiscord size={45} color="#db383d" />,
-      <AiOutlineInstagram size={45} color="#db383d" />,
-      <FaYoutube size={45} color="#db383d" />,
+      <FaTelegram size={45} color="#e4e7eb" />,
+      <FaFacebook size={45} color="#e4e7eb" />,
+      <AiOutlineTwitter size={45} color="#e4e7eb" />,
+      <FaDiscord size={45} color="#e4e7eb" />,
+      <AiOutlineInstagram size={45} color="#e4e7eb" />,
+      <FaYoutube size={45} color="#e4e7eb" />,
     ],
   },
 ];
