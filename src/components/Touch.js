@@ -12,7 +12,7 @@ const Touch = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
           {TouchData.map((data, index) => (
             <div key={index} className="group cursor-pointer">
-              <div className=" group-hover:bg-[#f5f5f5] dark:group-hover:bg-[#2b3139] p-4 rounded-md space-y-3">
+              <div className=" group-hover:bg-[#f5f5f5] dark:group-hover:bg-[#2b3139] p-4 rounded-md space-y-3 ">
                 <div>
                   <img
                     src={data.icon}

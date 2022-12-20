@@ -28,7 +28,7 @@ const Benefits = () => {
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 items-center justify-center">
           {TouchData1.map((data, index) => (
             <div key={index} className="group cursor-pointer">
-              <div className=" group-hover:bg-[#f5f5f5] dark:group-hover:bg-[#2b3139] p-4 rounded-md space-y-3">
+              <div className=" group-hover:bg-[#f5f5f5] dark:group-hover:bg-[#2b3139] px-8 py-12 mx-12 rounded-md space-y-3 border-2 border-color-red ">
                 <div>
                   {/* <img src= {data.icon} alt="icons" className="w-[50px] sm:w-[65px]" /> */}
                 </div>
